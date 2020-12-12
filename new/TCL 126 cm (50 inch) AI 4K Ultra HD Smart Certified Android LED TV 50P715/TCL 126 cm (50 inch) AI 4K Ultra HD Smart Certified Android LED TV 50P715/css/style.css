@@ -1,0 +1,159 @@
+.image-sec-sub {
+    width: 100%;
+}
+
+
+/* 
+.desc-secsone {
+    background-image: url(../images/Urbanears-Plattan-2.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 6%;
+} */
+.iamblack{
+    background-color: #000;
+}
+.sec-spl {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.text-sec1 {
+    padding: 5% 0;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.text-sec1 h2 {
+    color: #000000;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.text-sec1 p {
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+}
+
+.text-sec1-spl h2 {
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.text-sec1-spl p {
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+}
+/*--------2-----------------------*/
+
+.text-sec2 h2 {
+    color: #000;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.text-sec2 p {
+    color: #000;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.text-sec2-spl h2 {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.text-sec2-spl p {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+}
+.text-sec2 {
+    padding: 10%;
+}
+
+.spec-space {
+    padding: 5% 0;
+}
+
+.Mobile-view {
+    display: none;
+}
+
+.Desktop-view {
+    display: block;
+}
+
+
+/*--------3-----------------------*/
+
+@media (max-width:998px) {}
+
+@media (max-width:768px) {
+    
+.text-sec1-spl h2 {
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.text-sec1-spl p {
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+}
+    .iamblack{
+        background-color: #000;
+    }
+    .text-sec1 {
+        padding: 3% 0;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .text-sec1 h2 {
+        color: #000000;
+        font-size: 30px;
+        text-align: center;
+        font-weight: bold;
+    }
+    .text-sec1 p {
+        color: #000000;
+        font-size: 18px;
+        text-align: center;
+    }
+    .text-sec2 h2 {
+        color: #000;
+        font-weight: bold;
+        font-size: 30px;
+    }
+    .text-sec2 p {
+        color: #000;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .text-sec2 {
+        padding: 5%;
+    }
+    .spec-space {
+        padding: 2% 0;
+    }
+    .Mobile-view {
+        display: block;
+    }
+    .Desktop-view {
+        display: none;
+    }
+}
+
+
+/*--------4---------------------*/

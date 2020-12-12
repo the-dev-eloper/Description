@@ -1,0 +1,249 @@
+.image-sec-sub {
+    width: 100%;
+}
+/* 
+.desc {
+    padding: 0%;
+    width: 90%;
+    overflow: hidden;
+    margin: 0 auto;
+} */
+
+/* 
+.desc-secsone {
+    background-image: url(../images/Urbanears-Plattan-2.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 6%;
+} */
+.hiiamblack{
+    background-color: #000000;
+}
+.sec-spl {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.text-sec1 {
+    padding: 5% 0;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.text-sec1 h2 {
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.text-sec1 p {
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+}
+
+.desc-sec2 {
+    background-color: #000;
+}
+
+.text-sec2 h2 {
+    color: #ffffff !important;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.text-sec2 p {
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+}
+
+.desc-sec3,
+.desc-sec4 {
+    background-color: #000;
+    height: 80vh;
+}
+
+.text-sec3 h2 {
+    color: #ffffff !important;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.text-sec3 p {
+    color: #ffffff;
+    font-size: 15px;
+    text-align: center;
+}
+
+.text-sec4 h2 {
+    color: #ffffff !important;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.text-sec4 p {
+    color: #ffffff;
+    font-size: 15px;
+    text-align: center;
+}
+/* 
+.desc-sec5,
+.desc-sec6,
+.desc-sec7 {
+    background-color: #000000;
+}
+
+.text-sec5 h2,
+.text-sec6 h2,
+.text-sec7 h2 {
+
+    color: #ffffff !important;
+    font-size: 40px;
+    text-align: left;
+    font-weight: bold;
+
+    padding: 0 0 0 20%;
+}
+
+.text-sec5 p,
+.text-sec6 p,
+.text-sec7 p {
+
+    color: #ffffff;
+    font-size: 15px;
+    text-align: left;
+
+    padding: 0 0 0 20%;
+}
+
+.text-sec8 h2 {
+
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+
+    padding: 5% 0 0 0;
+}
+
+.text-sec8 p {
+
+    font-size: 15px;
+    text-align: center;
+
+    padding: 2% 0 0 0;
+}
+
+.desc-sec9 p,
+.desc-sec12 p,
+.desc-sec13 p {
+
+    font-size: 12px;
+    text-align: center;
+}
+
+.text-sec10 h2,
+.text-sec11 h2 {
+
+    font-size: 40px;
+    text-align: left;
+    font-weight: bold;
+
+    padding: 0 0 0 5%;
+}
+
+.text-sec10 p,
+.text-sec11 p {
+
+    font-size: 15px;
+    text-align: left;
+
+    padding: 0 0 0 5%;
+} */
+
+
+/*--------2-----------------------*/
+
+.text-sec2 h2 {
+    color: #000;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.text-sec2 p {
+    color: #000;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.text-sec2 {
+    padding: 10%;
+}
+
+.spec-space {
+    padding: 5% 0;
+}
+
+.Mobile-view {
+    display: none;
+}
+
+.Desktop-view {
+    display: block;
+}
+
+
+/*--------3-----------------------*/
+
+@media (max-width:998px) {}
+
+@media (max-width:768px) {
+    .text-sec1 {
+        padding: 3% 0;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .text-sec1 h2 {
+        color: #000000;
+        font-size: 30px;
+        text-align: center;
+        font-weight: bold;
+    }
+    .text-sec1 p {
+        color: #000000;
+        font-size: 18px;
+        text-align: center;
+    }
+    .text-sec2 h2 {
+        color: #000;
+        font-weight: bold;
+        font-size: 30px;
+    }
+    .text-sec2 p {
+        color: #000;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .text-sec2 {
+        padding: 5%;
+    }
+    .spec-space {
+        padding: 2% 0;
+    }
+    .Mobile-view {
+        display: block;
+    }
+    .Desktop-view {
+        display: none;
+    }
+}
+
+
+/*--------4---------------------*/
